@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, rgb(70, 90, 249), rgb(113, 42, 255));
+}
+.container{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+   background: linear-gradient(135deg, skyblue, blue);
+   width: 85%;
+   height: 580px;
+   border-radius: 10px;
+   box-shadow: 1px 1px 10px 0 rgb(48, 48, 48);
+}
+.item-box{
+    width: 100%;
+    height: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.img-box{
+    width: 100%;
+    height: 40%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.txt-box{
+    width: 100%;
+    height: 60%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.txt-box h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    color: white;
+}
+input{
+    display: flex;
+    width: 90%;
+    border-radius: 6px;
+    border: none;
+    margin-left: 20px;
+    padding: 6px;
+    margin-bottom: 8px;
+    font-size: 7px;
+
+}
+label{
+    color: white;
+    margin-left: 20px;
+}
+textarea{
+    display: flex;
+    font-size: 7px;
+    padding: 8px;
+    width: 90%;
+    height: 60px;
+    margin-left: 20px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+.MSM{
+    background: linear-gradient(135deg, rgb(0, 255, 217), rgb(0, 95, 81)) ;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding: 6px;
+    border-radius: 6px;
+}
+.MSM:hover{
+    background: linear-gradient(135deg, rgb(0, 95, 81),  rgb(0, 255, 217));
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: brown;
+}
+
+ /*  Small devices (landscape phone, 576Px and up)  */
+ @media (min-width: 576px) {
+    .item-box{
+        width: 100%;
+        height: 100%;
+        display: f;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-box{
+        width: 100%;
+        height: 40%;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    
+    }
+    .txt-box{
+        width: 100%;
+        height: 60%;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .txt-box h1{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-bottom: 0;
+    }
+    input{
+        display: flex;
+        width: 90%;
+        border-radius: 6px;
+        border: none;
+        margin-left: 29px;
+        padding: 6px;
+        margin-bottom: 4px;
+        font-size: 8px;
+    
+    }
+    label{
+        color: white;
+        margin-left: 29px;
+        font-size: 11px;
+    }
+    textarea{
+        display: flex;
+        font-size: 11px;
+        padding: 8px;
+        width: 90%;
+        height: 90px;
+        margin-left: 29px;
+        border-radius: 6px;
+        margin-bottom: 9px;
+    }
+    .MSM{
+        background: linear-gradient(135deg, rgb(0, 255, 217), rgb(0, 95, 81)) ;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 29px;
+        padding: 6px;
+        border-radius: 6px;
+        
+    }
+    .MSM:hover{
+        background: linear-gradient(135deg, rgb(0, 95, 81),  rgb(0, 255, 217));
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        
+    }
+    a:hover{
+        color: brown;
+    }
+ }
+  /* Medium devices (tablets, 768pxPx and up)  */
+  @media (min-width: 768px) {
+    .item-box{
+        width: 100%;
+        height: 100%;
+        display: f;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-box{
+        width: 100%;
+        height: 40%;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    
+    }
+    .txt-box{
+        width: 100%;
+        height: 60%;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .txt-box h1{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-bottom: 0;
+    }
+    input{
+        display: flex;
+        width: 90%;
+        border-radius: 6px;
+        border: none;
+        margin-left: 29px;
+        padding: 6px;
+        margin-bottom: 4px;
+        font-size: 8px;
+    
+    }
+    label{
+        color: white;
+        margin-left: 29px;
+        font-size: 11px;
+    }
+    textarea{
+        display: flex;
+        font-size: 11px;
+        padding: 8px;
+        width: 90%;
+        height: 90px;
+        margin-left: 29px;
+        border-radius: 6px;
+        margin-bottom: 9px;
+    }
+    .MSM{
+        background: linear-gradient(135deg, rgb(0, 255, 217), rgb(0, 95, 81)) ;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 29px;
+        padding: 6px;
+        border-radius: 6px;
+        
+    }
+    .MSM:hover{
+        background: linear-gradient(135deg, rgb(0, 95, 81),  rgb(0, 255, 217));
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        
+    }
+    a:hover{
+        color: brown;
+    }
+  }
+   /*  Large devices (desktops, 992Px and up)  */
+ @media (min-width: 992px) {
+    .box{
+        width: 85%;
+        height: 480px;
+    }
+    .item-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-box{
+        width: 50%;
+        height: 100%;
+        background-color: rebeccapurple;
+    }
+    img{
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    .txt-box{
+        width: 50%;
+        height: 100%;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    input{
+        display: flex;
+        width: 90%;
+        border-radius: 6px;
+        border: none;
+        margin-left: 20px;
+        padding: 6px;
+        margin-bottom: 8px;
+        font-size: 11px;
+    
+    }
+    label{
+        color: white;
+        margin-left: 20px;
+        font-size: 11px;
+    }
+    textarea{
+        display: flex;
+        font-size: 11px;
+        padding: 8px;
+        width: 90%;
+        height: 170px;
+        margin-left: 20px;
+        border-radius: 6px;
+        margin-bottom: 14px;
+    }
+    .MSM{
+        background: linear-gradient(135deg, rgb(0, 255, 217), rgb(0, 95, 81)) ;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        padding: 6px;
+        border-radius: 6px;
+        
+    }
+    .MSM:hover{
+        background: linear-gradient(135deg, rgb(0, 95, 81),  rgb(0, 255, 217));
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        
+    }
+    a:hover{
+        color: brown;
+    }
+ }
+  /*  X-Large devices (large desktop, 1200Px and up)  */
+  @media (min-width: 1200px) {
+    .item-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-box{
+        width: 50%;
+        height: 100%;
+        background-color: rebeccapurple;
+    }
+    img{
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    .txt-box{
+        width: 50%;
+        height: 100%;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    input{
+        display: flex;
+        width: 90%;
+        border-radius: 6px;
+        border: none;
+        margin-left: 29px;
+        padding: 6px;
+        margin-bottom: 18px;
+        font-size: 12px;
+    
+    }
+    label{
+        color: white;
+        margin-left: 29px;
+        font-size: 16px;
+    }
+    textarea{
+        display: flex;
+        font-size: 12px;
+        padding: 8px;
+        width: 90%;
+        height: 140px;
+        margin-left: 29px;
+        border-radius: 6px;
+        margin-bottom: 18px;
+    }
+    .MSM{
+        background: linear-gradient(135deg, rgb(0, 255, 217), rgb(0, 95, 81)) ;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 29px;
+        padding: 6px;
+        border-radius: 6px;
+        
+    }
+    .MSM:hover{
+        background: linear-gradient(135deg, rgb(0, 95, 81),  rgb(0, 255, 217));
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 19px;
+        
+    }
+    a:hover{
+        color: brown;
+    }
+  }
+   /*  XX-large devices (larger desktop, 1400Px and up)  */
+ @media (min-width: 1400px) {
+    .item-box{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-box{
+        width: 50%;
+        height: 100%;
+        background-color: rebeccapurple;
+    }
+    img{
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    .txt-box{
+        width: 50%;
+        height: 100%;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    input{
+        display: flex;
+        width: 90%;
+        border-radius: 6px;
+        border: none;
+        margin-left: 29px;
+        padding: 6px;
+        margin-bottom: 18px;
+        font-size: 12px;
+    
+    }
+    label{
+        color: white;
+        margin-left: 29px;
+        font-size: 16px;
+    }
+    textarea{
+        display: flex;
+        font-size: 12px;
+        padding: 8px;
+        width: 90%;
+        height: 140px;
+        margin-left: 29px;
+        border-radius: 6px;
+        margin-bottom: 18px;
+    }
+    .MSM{
+        background: linear-gradient(135deg, rgb(0, 255, 217), rgb(0, 95, 81)) ;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 29px;
+        padding: 6px;
+        border-radius: 6px;
+        
+    }
+    .MSM:hover{
+        background: linear-gradient(135deg, rgb(0, 95, 81),  rgb(0, 255, 217));
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        
+    }
+    a:hover{
+        color: brown;
+    }
+ }
